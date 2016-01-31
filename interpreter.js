@@ -41,6 +41,13 @@ var nonsense=(c,i, $,s={0:0}/*stack*/,p=0/*stack pointer*/,cp=0/*code pointer*/,
 		//set pointer value to index at stack
 		if($=='x')s[p]=p+1;
 		
+		//greater than
+		if($=='G')s[p]=+(s[p]>c[cp].charCodeAt(1));
+		//equal to
+		if($=='E')s[p]=+(s[p]==c[cp].charCodeAt(1));
+		//less than
+		if($=='L')s[p]=+(s[p]<c[cp].charCodeAt(1));
+		
 		//stack for debugging
 		console.log(c,i,$,s,p,cp);
 	}
