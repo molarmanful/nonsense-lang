@@ -4,7 +4,7 @@ var out=x=>o.innerHTML+=x;
 var clrout=x=>o.innerHTML='';
 
 //interpreter
-var nonsense=(c,i, $,s=[0],p=0,cp=0,ip=0)=>{
+var nonsense=(c,i, $,s={0:0}/*stack*/,p=0/*stack pointer*/,cp=0/*code pointer*/,ip=0/*input pointer*/)=>{
 	clrout();
 	console.clear();
 	
@@ -37,6 +37,9 @@ var nonsense=(c,i, $,s=[0],p=0,cp=0,ip=0)=>{
 		
 		//push charcode after 'c' to stack at pointer
 		if($=='c')s[p]=c[cp].charCodeAt(1);
+		
+		//set pointer value to index at stack
+		if($=='x')s[p]=p+1;
 		
 		//stack for debugging
 		console.log(c,i,$,s,p,cp);

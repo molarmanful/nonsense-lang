@@ -11,7 +11,7 @@ html
 			|font-weight: normal;
 			|font-style: normal;
 			|}
-			|#o,textarea{font-family:dvsm!important}
+			|textarea,#o{font-family:dvsm;background-color:#5A5A5A}
 	body
 		.container
 			h1 Nonsense Interpreter 
@@ -33,4 +33,4 @@ html
 			a(onclick='c.value="g"') Infinite loop
 			br
 			h2 Output
-			#o.well(wrap='off')
+			textarea#o.form-control(wrap='off' readonly='true')

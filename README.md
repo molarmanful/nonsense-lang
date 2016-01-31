@@ -43,3 +43,4 @@ because only `i` and `p` (neither of which take arguments) are evaluated.
 
 #### Stack Pushing
 - `c`: Takes 1 character as an argument and pushes its charcode to the stack under the pointer.
+- `x`: Sets number under pointer to the index at the stack.
