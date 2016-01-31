@@ -2,13 +2,13 @@
 A stack-based language that really doesn't make sense. Made at Los Altos Hacks 2016!
 
 ## Examples
-cH p ce p cl p cl p co p c, p c\s p cw p co p cr p cl p cd p c! p
+    cH p ce p cl p cl p co p c, p c\s p cw p co p cr p cl p cd p c! p
 A "Hello, world!" program.
 
-i p h
+    i p h
 Outputs the input.
 
-g
+    g
 Infinite loop.
 ## Tutorial
 Nonsense is stack-based, meaning that it uses an array (or stack) as memory storage instead of variables. The stack only holds numbers, and virtually all operators work using the stack. In this case, the stack is of infinite length and all stack items are initialized to 0.
@@ -19,7 +19,7 @@ All commands are space-separated. The first character in each "word" is the comm
 
 Here's an example of a program:
 
-i p
+    i p
 However, the same code can be written as:
 
 illegal potatoes
