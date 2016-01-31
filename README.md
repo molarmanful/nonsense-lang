@@ -22,7 +22,7 @@ Here's an example of a program:
     i p
 However, the same code can be written as:
 
-illegal potatoes
+    illegal potatoes
 because only `i` and `p` (neither of which take arguments) are evaluated.
 ### Operators
 #### Stack Pointer
