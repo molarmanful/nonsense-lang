@@ -48,3 +48,6 @@ because only `i` and `p` (neither of which take arguments) are evaluated.
 #### Stack Pushing
 - `c`: Takes 1 character as an argument and pushes its charcode to the stack under the pointer.
 - `x`: Sets number under pointer to the index at the stack.
+
+#### Logic
+- `G`, `E`, and `L`: Greater than, equal to, and less than operators. Modifies the stack at the pointer with either 1 or 0 depending on the criterion.
