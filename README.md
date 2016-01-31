@@ -51,3 +51,5 @@ because only `i` and `p` (neither of which take arguments) are evaluated.
 
 #### Logic
 - `G`, `E`, and `L`: Greater than, equal to, and less than operators. Modifies the stack at the pointer with either 1 or 0 depending on the criterion.
+- `A`, `O`, and `X`: Bitwise AND, OR, and XOR. Modifies the stack at the pointer accordingly.
+- `N`: Logical not. Modifies the stack at the pointer accordingly.

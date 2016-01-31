@@ -48,6 +48,15 @@ var nonsense=(c,i, $,s={0:0}/*stack*/,p=0/*stack pointer*/,cp=0/*code pointer*/,
 		//less than
 		if($=='L')s[p]=+(s[p]<c[cp].charCodeAt(1));
 		
+		//bitwise and
+		if($=='A')s[p]=s[p]&c[cp].charCodeAt(1);
+		//bitwise or
+		if($=='O')s[p]=s[p]|c[cp].charCodeAt(1);
+		//bitwise xor
+		if($=='X')s[p]=s[p]^c[cp].charCodeAt(1);
+		//logical not
+		if($=='N')s[p]=+!s[p];
+		
 		//stack for debugging
 		console.log(c,i,$,s,p,cp);
 	}
