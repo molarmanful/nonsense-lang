@@ -1,4 +1,4 @@
-# Nonsense
+<p align='center'><img src='nonsense.png' height='200px' width='200px'></p>
 A stack-based language that really doesn't make sense. Made at Los Altos Hacks 2016!
 
 ## Examples
