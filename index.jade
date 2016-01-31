@@ -14,7 +14,9 @@ html
 			|textarea,#o{font-family:dvsm;background-color:#5A5A5A}
 	body
 		.container
-			h1 Nonsense Interpreter 
+			h1 
+				a(href='https://github.com/molarmanful/nonsense-lang' target='_blank') Nonsense
+				|  Interpreter 
 				small by 
 					a(href='https://github.com/molarmanful' target='_blank') Ben Pang
 			hr
@@ -24,7 +26,7 @@ html
 			h2 Input
 			textarea#i.form-control(wrap='off')
 			br
-			button.btn.btn-primary(onclick='nonsense(c.value,i.value)') Run code
+			button.btn.btn-danger(onclick='nonsense(c.value,i.value)') Run code
 			|  Examples: 
 			a(onclick='c.value="cH p ce p cl p cl p co p c, p c\\\\s p cw p co p cr p cl p cd p c! p"') "Hello, world!"
 			|  - 
