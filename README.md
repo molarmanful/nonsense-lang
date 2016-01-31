@@ -12,7 +12,7 @@ Outputs the input.
 Infinite loop.
 
     ce s o r c
-    p l h
+     p l h
 Counts down from 100 to 0.
 ## Tutorial
 Nonsense is stack-based, meaning that it uses an array (or stack) as memory storage instead of variables. The stack only holds numbers, and virtually all operators work using the stack. In this case, the stack is of infinite length and all stack items are initialized to 0.
